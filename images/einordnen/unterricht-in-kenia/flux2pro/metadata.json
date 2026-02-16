@@ -1,0 +1,28 @@
+﻿{
+    "series":  "unterricht-in-kenia-flux2pro",
+    "module":  "einordnen",
+    "prompt":  "Unterricht in Kenia",
+    "promptSlug":  "unterricht-in-kenia",
+    "category":  "classroom",
+    "model":  "FLUX2 PRO",
+    "modelId":  "flux2pro",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "unterricht-in-kenia_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "unterricht-in-kenia_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "unterricht-in-kenia_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "unterricht-in-kenia_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

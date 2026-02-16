@@ -1,0 +1,28 @@
+﻿{
+    "series":  "schule-in-kenia-nanobana",
+    "module":  "einordnen",
+    "prompt":  "Schule in Kenia",
+    "promptSlug":  "schule-in-kenia",
+    "category":  "school",
+    "model":  "Nano Bana",
+    "modelId":  "nanobana",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "schule-in-kenia_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "schule-in-kenia_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "schule-in-kenia_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "schule-in-kenia_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

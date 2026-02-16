@@ -1,0 +1,28 @@
+﻿{
+    "series":  "diverse-mathematiklehrkraefte-nanobana",
+    "module":  "einordnen",
+    "prompt":  "Eine diverse Gruppe von Mathematiklehrkraeften verschiedenen Alters und Geschlechts",
+    "promptSlug":  "diverse-mathematiklehrkraefte",
+    "category":  "alternative",
+    "model":  "Nano Bana",
+    "modelId":  "nanobana",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "diverse-mathematiklehrkraefte_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "diverse-mathematiklehrkraefte_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "diverse-mathematiklehrkraefte_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "diverse-mathematiklehrkraefte_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

@@ -1,0 +1,28 @@
+﻿{
+    "series":  "unterricht-in-brasilien-gpt-image-1-5",
+    "module":  "einordnen",
+    "prompt":  "Unterricht in Brasilien",
+    "promptSlug":  "unterricht-in-brasilien",
+    "category":  "classroom",
+    "model":  "GPT Image-1.5",
+    "modelId":  "gpt-image-1-5",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "unterricht-in-brasilien_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "unterricht-in-brasilien_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "unterricht-in-brasilien_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "unterricht-in-brasilien_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

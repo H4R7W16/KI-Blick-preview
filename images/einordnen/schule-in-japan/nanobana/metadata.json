@@ -1,0 +1,28 @@
+﻿{
+    "series":  "schule-in-japan-nanobana",
+    "module":  "einordnen",
+    "prompt":  "Schule in Japan",
+    "promptSlug":  "schule-in-japan",
+    "category":  "school",
+    "model":  "Nano Bana",
+    "modelId":  "nanobana",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "schule-in-japan_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "schule-in-japan_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "schule-in-japan_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "schule-in-japan_3.jpg",
+                       "index":  3
+                   }
+               ]
+}
