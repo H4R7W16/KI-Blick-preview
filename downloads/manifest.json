@@ -1,0 +1,140 @@
+{
+  "generated": "2026-02-26T23:45:33.309Z",
+  "packages": [
+    {
+      "id": "mathematiklehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Mathematiklehrkraft.zip",
+      "label": "Mathematiklehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 5320214
+    },
+    {
+      "id": "deutschlehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Deutschlehrkraft.zip",
+      "label": "Deutschlehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 5761728
+    },
+    {
+      "id": "physiklehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Physiklehrkraft.zip",
+      "label": "Physiklehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 6180412
+    },
+    {
+      "id": "informatiklehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Informatiklehrkraft.zip",
+      "label": "Informatiklehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 6031043
+    },
+    {
+      "id": "sportlehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Sportlehrkraft.zip",
+      "label": "Sportlehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 6459341
+    },
+    {
+      "id": "kunstlehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Kunstlehrkraft.zip",
+      "label": "Kunstlehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 8446250
+    },
+    {
+      "id": "musiklehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Musiklehrkraft.zip",
+      "label": "Musiklehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 6455010
+    },
+    {
+      "id": "englischlehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Englischlehrkraft.zip",
+      "label": "Englischlehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 5774534
+    },
+    {
+      "id": "franzoesischlehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Franzoesischlehrkraft.zip",
+      "label": "Franzoesischlehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 5496618
+    },
+    {
+      "id": "lateinlehrkraft",
+      "type": "subject",
+      "filename": "KI-Blick_Lateinlehrkraft.zip",
+      "label": "Lateinlehrkraft",
+      "description": "48 Bilder (3 Modelle) + 3 Kontaktblaetter",
+      "imageCount": 51,
+      "sizeBytes": 7158310
+    },
+    {
+      "id": "flux2pro-alle",
+      "type": "model",
+      "filename": "KI-Blick_FLUX2-PRO_alle-Faecher.zip",
+      "label": "FLUX2 PRO - alle Faecher",
+      "description": "160 Bilder (10 Faecher) + 10 Kontaktblaetter",
+      "imageCount": 170,
+      "sizeBytes": 25425154
+    },
+    {
+      "id": "gpt-image-1-5-alle",
+      "type": "model",
+      "filename": "KI-Blick_GPT-Image-1-5_alle-Faecher.zip",
+      "label": "GPT Image-1.5 - alle Faecher",
+      "description": "160 Bilder (10 Faecher) + 10 Kontaktblaetter",
+      "imageCount": 170,
+      "sizeBytes": 19478660
+    },
+    {
+      "id": "nanobana-alle",
+      "type": "model",
+      "filename": "KI-Blick_Nano-Bana_alle-Faecher.zip",
+      "label": "Nano Bana - alle Faecher",
+      "description": "160 Bilder (10 Faecher) + 10 Kontaktblaetter",
+      "imageCount": 170,
+      "sizeBytes": 18176370
+    },
+    {
+      "id": "brot-serie",
+      "type": "theme",
+      "filename": "KI-Blick_Brot-Serie_8-Sprachen.zip",
+      "label": "Brot-Serie (8 Sprachen)",
+      "description": "96 Bilder: Brot in 8 Sprachen x 3 Modelle",
+      "imageCount": 96,
+      "sizeBytes": 19355444
+    },
+    {
+      "id": "gesamtpaket",
+      "type": "complete",
+      "filename": "KI-Blick_Gesamtpaket.zip",
+      "label": "Gesamtpaket",
+      "description": "Alle 606 Bilder + Kontaktblaetter + Metadaten",
+      "imageCount": 606,
+      "sizeBytes": 82462830
+    }
+  ]
+}
