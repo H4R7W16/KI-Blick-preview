@@ -1,7 +1,7 @@
 ﻿{
     "series":  "diverse-mathematiklehrkraefte-flux2pro",
     "module":  "einordnen",
-    "prompt":  "Eine diverse Gruppe von Mathematiklehrkräften verschiedenen Alters und Geschlechts",
+    "prompt":  "Eine diverse Gruppe von Mathematiklehrkraeften verschiedenen Alters und Geschlechts",
     "promptSlug":  "diverse-mathematiklehrkraefte",
     "category":  "alternative",
     "model":  "FLUX2 PRO",
