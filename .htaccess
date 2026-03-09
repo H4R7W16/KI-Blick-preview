@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Legacy preview paths -> root (remove /KI-Blick-preview from all URLs)
+RewriteRule ^KI-Blick-preview/?(.*)$ /$1 [R=301,L,NC]
+RewriteRule ^ki-blickpreview/?(.*)$ /$1 [R=301,L,NC]
+
+# Analytics reverse proxy: https://ki-blick.kmz-es.de/analytics/*
+RewriteRule ^analytics/?$ http://127.0.0.1:3000/analytics/ [P,L,QSA]
+RewriteRule ^analytics/(.*)$ http://127.0.0.1:3000/analytics/$1 [P,L,QSA]
+
+# SPA fallback for React Router
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
