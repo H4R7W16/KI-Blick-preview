@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Lokale Umgebungsvariablen; nur die Vorlage wird veröffentlicht
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Generated download packages (rebuilt during build)
+public/downloads/*.zip
+public/downloads/manifest.json
+
+# API-Konfiguration (Credentials – nur config.env.example einchecken)
+api/config.php
+!api/config.env.example
+
+# API Rate-Limit temp-Dateien
+api/ratelimit/

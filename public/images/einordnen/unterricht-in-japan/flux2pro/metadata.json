@@ -1,0 +1,28 @@
+﻿{
+    "series":  "unterricht-in-japan-flux2pro",
+    "module":  "einordnen",
+    "prompt":  "Unterricht in Japan",
+    "promptSlug":  "unterricht-in-japan",
+    "category":  "classroom",
+    "model":  "FLUX2 PRO",
+    "modelId":  "flux2pro",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "unterricht-in-japan_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "unterricht-in-japan_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "unterricht-in-japan_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "unterricht-in-japan_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

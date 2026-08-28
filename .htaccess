@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Legacy preview paths -> root (remove /KI-Blick-preview from all URLs)
+RewriteRule ^KI-Blick-preview/?(.*)$ /$1 [R=301,L,NC]
+RewriteRule ^ki-blickpreview/?(.*)$ /$1 [R=301,L,NC]
+
+# PHP-API: /api/*.php wird direkt von Apache ausgeliefert (kein Rewrite nötig)
+
+# SPA fallback for React Router (nur für Nicht-Dateien und Nicht-Verzeichnisse)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]

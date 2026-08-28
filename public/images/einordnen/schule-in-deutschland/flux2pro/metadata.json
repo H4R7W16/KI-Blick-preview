@@ -1,0 +1,28 @@
+﻿{
+    "series":  "schule-in-deutschland-flux2pro",
+    "module":  "einordnen",
+    "prompt":  "Schule in Deutschland",
+    "promptSlug":  "schule-in-deutschland",
+    "category":  "school",
+    "model":  "FLUX2 PRO",
+    "modelId":  "flux2pro",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "schule-in-deutschland_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "schule-in-deutschland_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "schule-in-deutschland_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "schule-in-deutschland_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

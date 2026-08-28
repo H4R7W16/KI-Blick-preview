@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/space-grotesk/500.css";
+@import "@fontsource/space-grotesk/700.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+
+  --color-bg: #0B1120;
+  --color-surface: #0F172A;
+  --color-card: #1E293B;
+  --color-border: #334155;
+  --color-muted: #64748B;
+  --color-secondary: #94A3B8;
+  --color-primary: #E2E8F0;
+
+  --color-accent: #0EA5E9;
+  --color-accent-hover: #38BDF8;
+  --color-accent-active: #0284C7;
+
+  --color-area-verstehen: #0EA5E9;
+  --color-area-entdecken: #8B5CF6;
+  --color-area-einordnen: #F59E0B;
+  --color-area-lernen: #10B981;
+  --color-area-erfahren: #F43F5E;
+
+  --color-success: #10B981;
+  --color-error: #EF4444;
+  --color-warning: #F59E0B;
+  --color-info: #0EA5E9;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Light mode */
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Dark mode (default) */
+.dark body {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+/* Subtle noise texture overlay (dark mode only) */
+.dark body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  --noise-opacity: 0.025;
+  opacity: var(--noise-opacity);
+  background-image: url('/textures/noise.png');
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+}
+
+/* Scrollbar styling (WebKit) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
+
+/* Scrollbar styling (Firefox) */
+.dark * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) var(--color-surface);
+}
+
+/* Image dimming for analysis tool */
+.image-dimmed {
+  opacity: 0.2;
+  filter: grayscale(100%);
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.image-highlighted {
+  opacity: 1;
+  filter: none;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+/* Area card hover: uses --card-area-color set via inline style */
+.area-card-hover {
+  transition: border-color 300ms ease, background 300ms ease, box-shadow 300ms ease;
+}
+
+.area-card-hover:hover {
+  border-color: color-mix(in srgb, var(--card-area-color) 60%, transparent);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--card-area-color) 6%, transparent) 0%,
+    transparent 50%
+  );
+  box-shadow:
+    0 0 30px color-mix(in srgb, var(--card-area-color) 12%, transparent),
+    0 0 60px color-mix(in srgb, var(--card-area-color) 6%, transparent);
+}
+
+.area-card-hover:hover h2 {
+  color: var(--card-area-color);
+}

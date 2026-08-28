@@ -1,0 +1,7 @@
+{
+  "allowedRootDirectories": ["api", "public", "scripts", "src"],
+  "allowedRootFiles": [".env.example", ".gitignore", ".htaccess", ".source-commit", "CHANGELOG.md", "LICENSE", "LICENSE-CONTENT", "README.md", "eslint.config.js", "index.html", "package-lock.json", "package.json", "tsconfig.app.json", "tsconfig.json", "tsconfig.node.json", "vite.config.ts"],
+  "forbiddenDirectoryNames": ["node_modules", ".venv", "dist", ".vite", ".tmp", ".claude"],
+  "forbiddenFileNames": [".env", ".env.development", ".env.production", "config.php"],
+  "maxFileBytes": 50000000
+}

@@ -1,0 +1,346 @@
+﻿{
+    "generated":  "2026-02-16T17:59:52.5369730+01:00",
+    "module":  "einordnen",
+    "basePath":  "/images/einordnen",
+    "statistics":  {
+                       "totalSeries":  37,
+                       "totalImages":  148,
+                       "totalPrompts":  11,
+                       "totalModels":  4
+                   },
+    "series":  [
+                   {
+                       "id":  "diverse-mathematiklehrkraefte-flux2pro",
+                       "prompt":  "Eine diverse Gruppe von Mathematiklehrkraeften verschiedenen Alters und Geschlechts",
+                       "promptSlug":  "diverse-mathematiklehrkraefte",
+                       "category":  "alternative",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "diverse-mathematiklehrkraefte-gemini-image-2",
+                       "prompt":  "Eine diverse Gruppe von Mathematiklehrkraeften verschiedenen Alters und Geschlechts",
+                       "promptSlug":  "diverse-mathematiklehrkraefte",
+                       "category":  "alternative",
+                       "model":  "Gemini Image 2",
+                       "modelId":  "gemini-image-2",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "diverse-mathematiklehrkraefte-gpt-image-1-5",
+                       "prompt":  "Eine diverse Gruppe von Mathematiklehrkraeften verschiedenen Alters und Geschlechts",
+                       "promptSlug":  "diverse-mathematiklehrkraefte",
+                       "category":  "alternative",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "diverse-mathematiklehrkraefte-nanobana",
+                       "prompt":  "Eine diverse Gruppe von Mathematiklehrkraeften verschiedenen Alters und Geschlechts",
+                       "promptSlug":  "diverse-mathematiklehrkraefte",
+                       "category":  "alternative",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "frau-informatik-flux2pro",
+                       "prompt":  "Eine junge Frau unterrichtet Informatik in einem modernen Klassenzimmer",
+                       "promptSlug":  "frau-informatik",
+                       "category":  "alternative",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "frau-informatik-gemini-image-2",
+                       "prompt":  "Eine junge Frau unterrichtet Informatik in einem modernen Klassenzimmer",
+                       "promptSlug":  "frau-informatik",
+                       "category":  "alternative",
+                       "model":  "Gemini Image 2",
+                       "modelId":  "gemini-image-2",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "frau-informatik-gpt-image-1-5",
+                       "prompt":  "Eine junge Frau unterrichtet Informatik in einem modernen Klassenzimmer",
+                       "promptSlug":  "frau-informatik",
+                       "category":  "alternative",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "frau-informatik-nanobana",
+                       "prompt":  "Eine junge Frau unterrichtet Informatik in einem modernen Klassenzimmer",
+                       "promptSlug":  "frau-informatik",
+                       "category":  "alternative",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "mathe-gesamtschule-flux2pro",
+                       "prompt":  "Mathematiklehrkraft in einer deutschen Gesamtschule, realistisch",
+                       "promptSlug":  "mathe-gesamtschule",
+                       "category":  "alternative",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "mathe-gesamtschule-gemini-image-2",
+                       "prompt":  "Mathematiklehrkraft in einer deutschen Gesamtschule, realistisch",
+                       "promptSlug":  "mathe-gesamtschule",
+                       "category":  "alternative",
+                       "model":  "Gemini Image 2",
+                       "modelId":  "gemini-image-2",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "mathe-gesamtschule-gpt-image-1-5",
+                       "prompt":  "Mathematiklehrkraft in einer deutschen Gesamtschule, realistisch",
+                       "promptSlug":  "mathe-gesamtschule",
+                       "category":  "alternative",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "mathe-gesamtschule-nanobana",
+                       "prompt":  "Mathematiklehrkraft in einer deutschen Gesamtschule, realistisch",
+                       "promptSlug":  "mathe-gesamtschule",
+                       "category":  "alternative",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-brasilien-flux2pro",
+                       "prompt":  "Schule in Brasilien",
+                       "promptSlug":  "schule-in-brasilien",
+                       "category":  "school",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-brasilien-gemini-image-2",
+                       "prompt":  "Schule in Brasilien",
+                       "promptSlug":  "schule-in-brasilien",
+                       "category":  "school",
+                       "model":  "Gemini Image 2",
+                       "modelId":  "gemini-image-2",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-brasilien-gpt-image-1-5",
+                       "prompt":  "Schule in Brasilien",
+                       "promptSlug":  "schule-in-brasilien",
+                       "category":  "school",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-brasilien-nanobana",
+                       "prompt":  "Schule in Brasilien",
+                       "promptSlug":  "schule-in-brasilien",
+                       "category":  "school",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-deutschland-flux2pro",
+                       "prompt":  "Schule in Deutschland",
+                       "promptSlug":  "schule-in-deutschland",
+                       "category":  "school",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-deutschland-gpt-image-1-5",
+                       "prompt":  "Schule in Deutschland",
+                       "promptSlug":  "schule-in-deutschland",
+                       "category":  "school",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-deutschland-nanobana",
+                       "prompt":  "Schule in Deutschland",
+                       "promptSlug":  "schule-in-deutschland",
+                       "category":  "school",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-japan-flux2pro",
+                       "prompt":  "Schule in Japan",
+                       "promptSlug":  "schule-in-japan",
+                       "category":  "school",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-japan-gpt-image-1-5",
+                       "prompt":  "Schule in Japan",
+                       "promptSlug":  "schule-in-japan",
+                       "category":  "school",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-japan-nanobana",
+                       "prompt":  "Schule in Japan",
+                       "promptSlug":  "schule-in-japan",
+                       "category":  "school",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-kenia-flux2pro",
+                       "prompt":  "Schule in Kenia",
+                       "promptSlug":  "schule-in-kenia",
+                       "category":  "school",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-kenia-gpt-image-1-5",
+                       "prompt":  "Schule in Kenia",
+                       "promptSlug":  "schule-in-kenia",
+                       "category":  "school",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "schule-in-kenia-nanobana",
+                       "prompt":  "Schule in Kenia",
+                       "promptSlug":  "schule-in-kenia",
+                       "category":  "school",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-brasilien-flux2pro",
+                       "prompt":  "Unterricht in Brasilien",
+                       "promptSlug":  "unterricht-in-brasilien",
+                       "category":  "classroom",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-brasilien-gpt-image-1-5",
+                       "prompt":  "Unterricht in Brasilien",
+                       "promptSlug":  "unterricht-in-brasilien",
+                       "category":  "classroom",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-brasilien-nanobana",
+                       "prompt":  "Unterricht in Brasilien",
+                       "promptSlug":  "unterricht-in-brasilien",
+                       "category":  "classroom",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-deutschland-flux2pro",
+                       "prompt":  "Unterricht in Deutschland",
+                       "promptSlug":  "unterricht-in-deutschland",
+                       "category":  "classroom",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-deutschland-gpt-image-1-5",
+                       "prompt":  "Unterricht in Deutschland",
+                       "promptSlug":  "unterricht-in-deutschland",
+                       "category":  "classroom",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-deutschland-nanobana",
+                       "prompt":  "Unterricht in Deutschland",
+                       "promptSlug":  "unterricht-in-deutschland",
+                       "category":  "classroom",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-japan-flux2pro",
+                       "prompt":  "Unterricht in Japan",
+                       "promptSlug":  "unterricht-in-japan",
+                       "category":  "classroom",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-japan-gpt-image-1-5",
+                       "prompt":  "Unterricht in Japan",
+                       "promptSlug":  "unterricht-in-japan",
+                       "category":  "classroom",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-japan-nanobana",
+                       "prompt":  "Unterricht in Japan",
+                       "promptSlug":  "unterricht-in-japan",
+                       "category":  "classroom",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-kenia-flux2pro",
+                       "prompt":  "Unterricht in Kenia",
+                       "promptSlug":  "unterricht-in-kenia",
+                       "category":  "classroom",
+                       "model":  "FLUX2 PRO",
+                       "modelId":  "flux2pro",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-kenia-gpt-image-1-5",
+                       "prompt":  "Unterricht in Kenia",
+                       "promptSlug":  "unterricht-in-kenia",
+                       "category":  "classroom",
+                       "model":  "GPT Image-1.5",
+                       "modelId":  "gpt-image-1-5",
+                       "imageCount":  4
+                   },
+                   {
+                       "id":  "unterricht-in-kenia-nanobana",
+                       "prompt":  "Unterricht in Kenia",
+                       "promptSlug":  "unterricht-in-kenia",
+                       "category":  "classroom",
+                       "model":  "Nano Bana",
+                       "modelId":  "nanobana",
+                       "imageCount":  4
+                   }
+               ]
+}

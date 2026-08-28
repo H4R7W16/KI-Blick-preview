@@ -1,0 +1,28 @@
+﻿{
+    "series":  "unterricht-in-deutschland-flux2pro",
+    "module":  "einordnen",
+    "prompt":  "Unterricht in Deutschland",
+    "promptSlug":  "unterricht-in-deutschland",
+    "category":  "classroom",
+    "model":  "FLUX2 PRO",
+    "modelId":  "flux2pro",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "unterricht-in-deutschland_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "unterricht-in-deutschland_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "unterricht-in-deutschland_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "unterricht-in-deutschland_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

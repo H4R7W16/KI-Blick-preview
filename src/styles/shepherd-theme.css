@@ -1,0 +1,231 @@
+/* Shepherd.js – KI:Blick Theme */
+
+/* Z-Index-Hierarchie:
+   9000 = Overlay-SVG (Hintergrundverdunklung)
+   9001 = Hervorgehobenes Element (Spotlight, sichtbar über Overlay)
+   9002 = Shepherd-Tooltip (immer ganz oben) */
+.shepherd-modal-overlay-container {
+  z-index: 9000;
+}
+
+.shepherd-element {
+  z-index: 9002;
+  max-width: 360px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Dark Mode (Standard) */
+.shepherd-element .shepherd-content {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: 0;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.shepherd-element .shepherd-text {
+  color: var(--color-secondary);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  padding: 0.75rem 1.5rem 1.25rem;
+}
+
+/* Override Shepherd's .shepherd-has-title rule (3-class specificity) with 4 classes */
+.shepherd-element.shepherd-has-title .shepherd-content .shepherd-header,
+.shepherd-element .shepherd-header {
+  background: var(--color-surface) !important;
+  padding: 1.25rem 1.5rem 0;
+  border-bottom: none;
+}
+
+.shepherd-element .shepherd-title {
+  color: var(--color-primary);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Cancel/Close button */
+.shepherd-element .shepherd-cancel-icon {
+  color: var(--color-muted);
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.shepherd-element .shepherd-cancel-icon:hover {
+  color: var(--color-secondary);
+}
+
+.shepherd-element .shepherd-footer {
+  padding: 0 1.5rem 1.25rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.shepherd-element .shepherd-button {
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.813rem;
+  font-weight: 500;
+  transition: all 0.15s;
+  cursor: pointer;
+  border: none;
+}
+
+.shepherd-element .shepherd-button:not(.shepherd-button-secondary) {
+  background: var(--color-accent);
+  color: white;
+}
+
+.shepherd-element .shepherd-button:not(.shepherd-button-secondary):hover {
+  background: var(--color-accent-hover);
+}
+
+.shepherd-element .shepherd-button.shepherd-button-secondary {
+  background: transparent;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-border);
+}
+
+.shepherd-element .shepherd-button.shepherd-button-secondary:hover {
+  background: color-mix(in srgb, var(--color-border) 40%, transparent);
+}
+
+/* Fortschrittsanzeige (Dots) */
+.shepherd-element .shepherd-progress {
+  display: flex;
+  justify-content: center;
+  gap: 0.375rem;
+  padding: 0 1.5rem 0.75rem;
+}
+
+.shepherd-element .shepherd-progress-dot {
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background: var(--color-border);
+  transition: background 0.2s;
+}
+
+.shepherd-element .shepherd-progress-dot--active {
+  background: var(--color-accent);
+}
+
+/* Light Mode: Tooltip bleibt bewusst dunkel – es ist eine Meta-Schicht über der App */
+[data-theme="light"] .shepherd-element .shepherd-content {
+  background: #0f172a;
+  border-color: #1e293b;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.45), 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme="light"] .shepherd-element.shepherd-has-title .shepherd-content .shepherd-header,
+[data-theme="light"] .shepherd-element .shepherd-header {
+  background: #0f172a !important;
+}
+
+[data-theme="light"] .shepherd-element .shepherd-title {
+  color: #e2e8f0;
+}
+
+[data-theme="light"] .shepherd-element .shepherd-text {
+  color: #94a3b8;
+}
+
+[data-theme="light"] .shepherd-element .shepherd-cancel-icon {
+  color: #64748b;
+}
+
+[data-theme="light"] .shepherd-element .shepherd-button.shepherd-button-secondary {
+  color: #94a3b8;
+  border-color: #334155;
+}
+
+[data-theme="light"] .shepherd-element .shepherd-button.shepherd-button-secondary:hover {
+  background: rgba(51, 65, 85, 0.4);
+}
+
+[data-theme="light"] .shepherd-element .shepherd-progress-dot {
+  background: #334155;
+}
+
+/* Spotlight-Overlay: Dark Mode */
+.shepherd-modal-overlay-container .shepherd-modal-mask-rect {
+  fill: rgba(0, 0, 0, 0.4);
+}
+
+/* Spotlight-Overlay: Light Mode – heller Hintergrund braucht weniger Verdunklung */
+[data-theme="light"] .shepherd-modal-overlay-container .shepherd-modal-mask-rect {
+  fill: rgba(15, 23, 42, 0.18);
+}
+
+/* Highlight: Aktives Tour-Element —
+   pointer-events: none verhindert versehentliche Klicks auf Links/Buttons im Spotlight */
+@keyframes shepherd-target-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 0 2px var(--color-accent),
+      0 0 0 5px color-mix(in srgb, var(--color-accent) 20%, transparent),
+      0 0 20px color-mix(in srgb, var(--color-accent) 25%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 0 0 2px color-mix(in srgb, var(--color-accent) 70%, transparent),
+      0 0 0 5px color-mix(in srgb, var(--color-accent) 8%, transparent),
+      0 0 32px color-mix(in srgb, var(--color-accent) 15%, transparent);
+  }
+}
+
+.shepherd-target-highlight {
+  border-radius: 0.75rem;
+  animation: shepherd-target-pulse 2s ease-in-out infinite;
+  position: relative;
+  z-index: 9001;
+  pointer-events: none;
+}
+
+/* Sidebar-Highlight: auf <aside> selbst — dessen box-shadow wird nicht durch
+   overflow-x-hidden / overflow-y-auto des Sidebar-Containers geclippt.
+   !important überschreibt Tailwinds z-20/z-50 zuverlässig. */
+.shepherd-sidebar-highlight {
+  z-index: 9001 !important;
+  animation: shepherd-target-pulse 2s ease-in-out infinite;
+}
+
+/* Tour-Auswahl-Buttons (Landingpage) */
+.tour-option-btn {
+  background: color-mix(in srgb, var(--tour-color) 10%, transparent);
+  border-color: color-mix(in srgb, var(--tour-color) 30%, transparent);
+}
+
+.tour-option-btn:hover {
+  background: color-mix(in srgb, var(--tour-color) 18%, transparent);
+  border-color: color-mix(in srgb, var(--tour-color) 55%, transparent);
+}
+
+[data-theme="light"] .tour-option-btn {
+  background: color-mix(in srgb, var(--tour-color) 12%, white);
+  border-color: color-mix(in srgb, var(--tour-color) 50%, transparent);
+}
+
+[data-theme="light"] .tour-option-btn:hover {
+  background: color-mix(in srgb, var(--tour-color) 22%, white);
+  border-color: color-mix(in srgb, var(--tour-color) 75%, transparent);
+}
+
+/* Animationen */
+.shepherd-element {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.shepherd-element.shepherd-enabled {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,52 @@
+{
+  "name": "ki-blick",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173 --strictPort",
+    "sync:images": "node scripts/copy-images.mjs",
+    "build:downloads": "tsx scripts/build-downloads.ts",
+    "build:core": "tsc -b && vite build",
+    "build:release": "npm run sync:images && npm run build:downloads && npm run build:core -- --base /",
+    "build:launch": "npm run build:release",
+    "build:preview": "npm run build:core -- --base /KI-Blick-preview/",
+    "build": "npm run build:core -- --base /",
+    "lint": "eslint .",
+    "check:asset-paths": "node scripts/check-asset-paths.mjs",
+    "check:public-tree": "node scripts/publish/validate-public-tree.mjs .",
+    "test:publish-policy": "node --test scripts/publish/validate-public-tree.test.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/space-grotesk": "^5.2.10",
+    "@tailwindcss/vite": "^4.1.18",
+    "framer-motion": "^12.34.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.13.0",
+    "recharts": "^3.7.0",
+    "shepherd.js": "^15.0.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/archiver": "^6.0.3",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "archiver": "^7.0.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "playwright": "^1.58.2",
+    "sharp": "^0.34.5",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vite": "^7.3.1"
+  }
+}

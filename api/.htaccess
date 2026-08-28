@@ -1,0 +1,11 @@
+# Kein Directory Listing
+Options -Indexes
+
+# config.php nicht direkt aufrufbar
+<Files "config.php">
+  Require all denied
+</Files>
+
+<Files "config.env.example">
+  Require all denied
+</Files>

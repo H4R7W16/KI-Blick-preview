@@ -1,0 +1,28 @@
+﻿{
+    "series":  "mathe-gesamtschule-gpt-image-1-5",
+    "module":  "einordnen",
+    "prompt":  "Mathematiklehrkraft in einer deutschen Gesamtschule, realistisch",
+    "promptSlug":  "mathe-gesamtschule",
+    "category":  "alternative",
+    "model":  "GPT Image-1.5",
+    "modelId":  "gpt-image-1-5",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "mathe-gesamtschule_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "mathe-gesamtschule_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "mathe-gesamtschule_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "mathe-gesamtschule_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

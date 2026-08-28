@@ -1,0 +1,28 @@
+﻿{
+    "series":  "schule-in-kenia-gpt-image-1-5",
+    "module":  "einordnen",
+    "prompt":  "Schule in Kenia",
+    "promptSlug":  "schule-in-kenia",
+    "category":  "school",
+    "model":  "GPT Image-1.5",
+    "modelId":  "gpt-image-1-5",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "schule-in-kenia_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "schule-in-kenia_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "schule-in-kenia_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "schule-in-kenia_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

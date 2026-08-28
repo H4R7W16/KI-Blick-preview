@@ -1,0 +1,28 @@
+﻿{
+    "series":  "schule-in-brasilien-flux2pro",
+    "module":  "einordnen",
+    "prompt":  "Schule in Brasilien",
+    "promptSlug":  "schule-in-brasilien",
+    "category":  "school",
+    "model":  "FLUX2 PRO",
+    "modelId":  "flux2pro",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "schule-in-brasilien_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "schule-in-brasilien_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "schule-in-brasilien_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "schule-in-brasilien_3.jpg",
+                       "index":  3
+                   }
+               ]
+}

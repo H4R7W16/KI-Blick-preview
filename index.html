@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="de" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="%BASE_URL%branding/ki-blick-logo-icon.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>KI:Blick &ndash; Bilder, Bias und Blickwinkel</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="KI:Blick &ndash; Bilder, Bias und Blickwinkel" />
+    <meta
+      name="description"
+      content="Eine digitale Lernumgebung zur kritischen Auseinandersetzung mit generativer Bild-KI. 480 KI-generierte Bilder, drei Modelle, vier Lernpfade. Kostenlos, ohne Accounts, DSGVO-konform."
+    />
+    <meta name="author" content="Jan Hartwig" />
+    <meta
+      name="keywords"
+      content="KI, K&uuml;nstliche Intelligenz, Bias, Stereotypen, Bildgenerierung, Medienbildung, Schule, Baden-W&uuml;rttemberg"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ki-blick.kmz-es.de/" />
+    <meta property="og:title" content="KI:Blick &ndash; Bilder, Bias und Blickwinkel" />
+    <meta
+      property="og:description"
+      content="Wenn du eine KI bittest, eine Lehrkraft zu zeichnen &ndash; was glaubst du, wen sie zeigt? 480 Bilder, drei KI-Modelle, &uuml;berraschende Muster."
+    />
+    <meta property="og:image" content="https://ki-blick.kmz-es.de/branding/ki-blick-logo.png" />
+    <meta property="og:image:secure_url" content="https://ki-blick.kmz-es.de/branding/ki-blick-logo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1417" />
+    <meta property="og:image:height" content="496" />
+    <meta property="og:image:alt" content="KI:Blick &ndash; Eine Lernumgebung zu KI-generierten Bildern und Bias" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="KI:Blick" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KI:Blick &ndash; Bilder, Bias und Blickwinkel" />
+    <meta
+      name="twitter:description"
+      content="480 KI-generierte Bilder. Drei Modelle. &Uuml;berraschende Muster. Eine Lernumgebung zu Bias und Stereotypen in generativer Bild-KI."
+    />
+    <meta name="twitter:image" content="https://ki-blick.kmz-es.de/branding/ki-blick-logo.png" />
+    <meta name="twitter:image:alt" content="KI:Blick &ndash; Bilder, Bias und Blickwinkel" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ki-blick.kmz-es.de/" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('ki-blick-theme');
+          if (stored === 'light') {
+            document.documentElement.setAttribute('data-initial-theme', 'light');
+          }
+        } catch (_) {
+          // Keep default dark splash if storage access is unavailable.
+        }
+      })();
+    </script>
+    <style>
+      #splash {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0b1120;
+        transition: opacity 0.4s ease-out;
+      }
+
+      html[data-initial-theme='light'] #splash {
+        background-color: #f8fafc;
+      }
+
+      @keyframes splash-pulse {
+        0%,
+        100% {
+          opacity: 0.7;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.06);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        #splash img {
+          animation: none !important;
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="splash">
+      <img
+        src="/branding/ki-blick-logo-icon.webp"
+        alt=""
+        width="64"
+        height="64"
+        style="animation: splash-pulse 2s ease-in-out infinite"
+      />
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

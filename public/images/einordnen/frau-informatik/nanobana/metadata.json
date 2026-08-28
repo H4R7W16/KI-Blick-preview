@@ -1,0 +1,28 @@
+﻿{
+    "series":  "frau-informatik-nanobana",
+    "module":  "einordnen",
+    "prompt":  "Eine junge Frau unterrichtet Informatik in einem modernen Klassenzimmer",
+    "promptSlug":  "frau-informatik",
+    "category":  "alternative",
+    "model":  "Nano Bana",
+    "modelId":  "nanobana",
+    "count":  4,
+    "images":  [
+                   {
+                       "filename":  "frau-informatik_0.jpg",
+                       "index":  0
+                   },
+                   {
+                       "filename":  "frau-informatik_1.jpg",
+                       "index":  1
+                   },
+                   {
+                       "filename":  "frau-informatik_2.jpg",
+                       "index":  2
+                   },
+                   {
+                       "filename":  "frau-informatik_3.jpg",
+                       "index":  3
+                   }
+               ]
+}
